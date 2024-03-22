@@ -3,40 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon Mloyi | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>mloyi's portfolio</title>
+    <!-- Internal CSS -->
+    <style>
+        /* CSS styles */
+        body {
+            background-color: #222; /* Dark background color */
+            color: #fff; /* Light text color */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 100px 0;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        section {
+            padding: 40px 0;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        /* Dark theme for specific elements */
+        .dark-theme {
+            background-color: #333;
+            color: #fff;
+        }
+        /* Styling for contact links */
+        .contact-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        /* Adjust image size */
+        img {
+            width: 50%; /* Set width to 50% of container */
+            max-width: 600px; /* Set maximum width to 600px */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Make the image responsive */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="C:\Users\user\Desktop\FRESHSTORE\OneDrive\Documents\Brandon.jpg" alt="Your Image">
+            <h1>Brandon D Mloyi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <ul>
+                <li>Welcome to Brandon Mloyi's website! I'm Brandon Desire Mloyi, a Junior Cloud Administrator with a passion for:</li>
+                <ul>
+                    <li>Cloud Computing Technologies</li>
+                    <li>Infrastructure Management</li>
+                    <li>Security</li>
+                    <li>Automation</li>
+                    <li>Performance Monitoring</li>
+                    <li>Cost Optimization</li>
+                    <li>Compliance</li>
+                </ul>
+                <li>With a year of experience in Azure Infrastructure, I have honed my skills in Azure Administration.</li>
+                <li>I aspire to cultivate expertise in cloud computing by honing my skills with leading platforms such as AWS, Google Cloud, and IBM MaaS360, and this portfolio showcases some of my best work.</li>
+                <li>Feel free to explore my portfolio and reach out if you have any questions or opportunities for collaboration. I'm excited to share my journey and accomplishments with you!</li>
+            </ul>
+        </div>
+    </section>
     
-    <main>
-        <section class="intro">
-            <h1>Welcome to Brandon Mloyi's Portfolio</h1>
-            <p>I am a passionate professional dedicated to building solutions that make a difference. Explore my work, skills, and educational background.</p>
-            <a href="resume.pdf" class="btn" download>Download Resume</a>
-        </section>
+    <section id="portfolio" class="dark-theme">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Cloud Computing Essentials</h3>
+                <p>Cloud computing essentials refer to the fundamental concepts and principles of cloud computing, a technology that enables access to computing resources over the internet. It encompasses understanding key components such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), along with essential concepts like scalability, elasticity, virtualization, and pay-as-you-go pricing models. Mastery of cloud computing essentials involves grasping how cloud services function, their benefits, and their impact on modern IT infrastructure and business operations.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
 
-        <!-- Add sections for Skills, Work, Education, etc. -->
-        
-    </main>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-links">
+                <a href="https://za.linkedin.com/in/brandon-mloyi-234a90269">LinkedIn</a>
+                <a href="https://www.credly.com/users/brandon-mloyi/badges" target="_blank">Visit my Credly profile</a>
+            </div>
+            <p>Email: brandon@skunkworks.africa</p>
+            <p>Phone: 0642126619</p>
+        </div>
+    </section>
 
-    <footer>
-        <p>Connect with me:</p>
-        <a href="https://www.linkedin.com/in/brandon-mloyi-234a90269/" target="_blank">LinkedIn</a>
-        <!-- Add more social links as necessary -->
-        <p>&copy; 2024 Brandon Mloyi. All Rights Reserved.</p>
+    <footer class="dark-theme">
+        <div class="container">
+            <p>&copy; 2024 Brandon Mloyi. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
-
