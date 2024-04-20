@@ -3,40 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon Mloyi | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            display: block;
+            margin: 0 auto;
+        }
+        .links {
+            margin-bottom: 20px;
+        }
+        .links a {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .resume-btn {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 40px;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        .resume-btn:hover {
+            background-color: #0056b3;
+        }
+        .section-title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .experience-item {
+            margin-bottom: 20px;
+        }
+        .project-item {
+            margin-bottom: 20px;
+        }
+        .download-icon,
+        .email-icon,
+        .credly-icon,
+        .linkedin-icon,
+        .microsoft-icon {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .contact-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ccc;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="intro">
-            <h1>Welcome to Brandon Mloyi's Portfolio</h1>
-            <p>I am a passionate professional dedicated to building solutions that make a difference. Explore my work, skills, and educational background.</p>
-            <a href="resume.pdf" class="btn" download>Download Resume</a>
-        </section>
-
-        <!-- Add sections for Skills, Work, Education, etc. -->
+    <div class="container">
+        <img src="C:\Users\user\Desktop\FRESHSTORE\OneDrive\Documents\Brandon.jpg" alt="Brandon Desire Mloyi" class="profile-img">
         
-    </main>
+        <div class="description">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                I'm a diligent learner and hardworking cloud administrator at Skunkworks.africa. Passionate about tackling challenges, I thrive in dynamic environments. I continuously seek opportunities to expand my skills and knowledge, ensuring optimal performance and security in cloud infrastructure management.</p>
+        </div>
 
-    <footer>
-        <p>Connect with me:</p>
-        <a href="https://www.linkedin.com/in/brandon-mloyi-234a90269/" target="_blank">LinkedIn</a>
-        <!-- Add more social links as necessary -->
-        <p>&copy; 2024 Brandon Mloyi. All Rights Reserved.</p>
-    </footer>
+        <a href="C:\Users\user\Downloads\Brandon Mloyi.pdf" class="resume-btn" download><img src="https://cdn-icons-png.flaticon.com/512/2418/2418081.png" alt="Download Icon" class="download-icon">Download Resume</a>
+
+        <div class="work-experience">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-item">
+                <h3>Cloud Administrator</h3>
+                <p>Skunkworks Pty Ltd - Date Range</p>
+                <p><h1>Azure Administrator Roles & Responsibilities</h1>
+                    <ul>
+                      <li>Azure Infrastructure Management: Administer and maintain Azure infrastructure, including virtual machines, networks, and storage solutions.</li>
+                      <li>Identity and Access Management: Manage user identities, access controls, and authentication mechanisms within Azure Active Directory.</li>
+                      <li>Resource Deployment and Monitoring: Deploy and monitor Azure resources, ensuring optimal performance, scalability, and security.</li>
+                      <li>Security and Compliance: Implement security measures, monitor for threats, and ensure compliance with industry standards and regulatory requirements.</li>
+                      <li>Backup and Disaster Recovery: Set up and manage backup and disaster recovery solutions to protect data and ensure business continuity.</li>
+                      <li>Cost Management: Optimize Azure costs by monitoring resource usage, identifying cost-saving opportunities, and implementing cost management strategies.</li>
+                      <li>Automation and Scripting: Use automation tools and scripting languages (e.g., PowerShell, Azure CLI) to streamline administrative tasks and workflows.</li>
+                      <li>Troubleshooting and Support: Resolve technical issues, provide support to users, and troubleshoot problems related to Azure services and infrastructure.</li>
+                      <li>Collaboration and Communication: Collaborate with other IT teams and stakeholders, communicate effectively about Azure services and updates, and provide training and guidance as needed.</li>
+                      <li>Continuous Learning: Stay updated on new Azure features, technologies, and best practices through continuous learning and professional development.</li>
+                    </ul></p>
+            </div>
+        </div>
+
+        <div class="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <h2>Course Development</h2>
+            <p>
+              As an Azure Administrator, one of my key projects involved course development within Azure platforms. This encompassed creating and curating educational content tailored to specific learning objectives and target audiences. I collaborated with subject matter experts to ensure accuracy and relevance of the course material. Additionally, I utilized Azure's resources and tools to enhance the learning experience, such as Azure DevOps for project management and Azure Virtual Machines for hands-on labs. Throughout the course development process, I focused on promoting engagement, clarity, and accessibility to empower learners to effectively leverage Azure technologies.
+            </p>
+
+            <h2>Inviting Guests and Members on Azure Entra</h2>
+            <p>
+              Within the scope of Azure administration, I managed user access and permissions on Azure Entra, Microsoft's collaborative platform for teams. One of my responsibilities involved inviting guests and members to join Entra workspaces and projects. This required a thorough understanding of Azure Entra's user management capabilities and security features. I ensured that invited users were granted appropriate access levels based on their roles and responsibilities within the organization. By facilitating seamless collaboration and communication through Azure Entra, I contributed to the efficiency and productivity of cross-functional teams.
+            </p>
+
+            <h2>Resetting Passwords on Entra</h2>
+            <p>
+              Another aspect of my role as an Azure Administrator was assisting users with password-related issues on Azure Entra. This involved troubleshooting login problems, verifying user identities, and guiding individuals through the password reset process. I leveraged Azure's identity management tools to securely authenticate users and enforce password policies. Additionally, I provided user education and support to promote best practices for password security and authentication. By promptly addressing password reset requests, I ensured uninterrupted access to Azure Entra resources and maintained the integrity of user accounts.
+            </p>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-info">
+                <p>Email: <img src="https://cdn-icons-png.flaticon.com/512/254/254004.png" alt="Email Icon" class="email-icon"> brandon@example.com</p>
+                <p>Phone: +27642126619</p>
+                <p>LinkedIn: <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon" class="linkedin-icon"> <a href="https://www.linkedin.com/in/brandon-mloyi-234a90269">Brandon Mloyi</a></p>
+                <p>Microsoft Learn: <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" alt="Microsoft Icon" class="microsoft-icon"> <a href="https://learn.microsoft.com/en-us/users/brandon-9311">Brandon Mloyi</a></p>
+                <p>Credly: <img src="https://cdn-icons-png.flaticon.com/512/3852/3852263.png" alt="Credly Icon" class="credly-icon"> <a href="https://www.credly.com/users/brandon-mloyi/badges">Brandon Mloyi</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
