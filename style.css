@@ -1,1 +1,97 @@
-css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background color */
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White section background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Text alignment within sections */
+section p {
+    text-align: justify; /* Justifies text within the section */
+}
+
+/* Headings */
+h1, h2 {
+    color: #333; /* Dark color for headings */
+    margin: 0 0 10px 0; /* Spacing around headings */
+}
+
+/* Portrait styling */
+#profile {
+    text-align: center; /* Centers content within the section */
+}
+
+/* Oval shape */
+#profile img {
+    width: 280px;  /* Increased width */
+    height: 350px; /* Adjusted height for a larger image */
+    border: 2px solid #f9f7f7; /* Optional: Border around the image */
+    margin-bottom: 15px; /* Optional: More space below the image */
+}
+
+/* Unordered lists for reference links */
+ul {
+    list-style-type: none; /* No bullet points */
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0; /* Space between list items */
+}
+
+ul li a {
+    color: #0066cc; /* Blue link color */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Contact information styling */
+#contact {
+    text-align: left; /* Left-align content in the contact section */
+}
+
+#contact p {
+    font-size: 16px; /* Font size for contact info */
+    color: #666; /* Gray text */
+}
+
+/* Resume Download Section */
+#resume {
+    text-align: center; /* Centers content in the resume section */
+}
+
+#resume p {
+    margin: 0;
+}
+
+/* Button Styling */
+button {
+    background-color: #0066cc; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Centers text */
+}
+
+button a {
+    color: white; /* Link text color */
+    text-decoration: none; /* No underline */
+}
+
+button:hover {
+    background-color: #142638; /* Darker blue on hover */
+}
